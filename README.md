@@ -1,17 +1,19 @@
-# 复现代码
+# Reproducibility Code
 
-本仓库包含论文分析所用的两个核心脚本：
+This repository contains two core scripts used for the analyses in the manuscript:
 
-- `WGTWR.py`：时空加权回归 (MGTWR) 分析:contentReference[oaicite:0]{index=0}
-- `XGBoost+SHAP.py`：XGBoost建模与SHAP解释分析:contentReference[oaicite:1]{index=1}
+- `WGTWR.py`: Spatiotemporal weighted regression (MGTWR) analysis  
+- `XGBoost+SHAP.py`: XGBoost modeling and SHAP interpretation analysis  
 
-## 使用方法
-1. 克隆仓库：
+## Usage
+1. Clone the repository and run the analyses:
    ```bash
-   git clone https://github.com/你的用户名/be-eh-repro.git
-   cd be-eh-repro
-2. 运行 MGTWR 分析：
-python WGTWR.py
+   git clone https://github.com/xiongsuwen-art/ECDL-mgtwr-xgb-925.git
+   cd ECDL-mgtwr-xgb-925
 
-3. 运行 XGBoost+SHAP 分析：
-python "XGBoost+SHAP.py"
+   # Run MGTWR analysis
+   python WGTWR.py
+
+   # Run XGBoost+SHAP analysis
+   python "XGBoost+SHAP.py"
+
